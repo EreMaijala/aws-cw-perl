@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetMetricStatisticsResponse xmlns="http://monitoring.amazonaws.com/doc/2009-05-15/">
+  <ResponseMetadata>
+    <RequestId>string</RequestId>
+  </ResponseMetadata>
+  <GetMetricStatisticsResult>
+    <!--Zero or more repetitions:-->
+    <Datapoints>
+      <Timestamp>string</Timestamp>
+      <Samples>1.051732E7</Samples>
+      <!--Optional:-->
+      <Average>1.051732E7</Average>
+      <!--Optional:-->
+      <Sum>1.051732E7</Sum>
+      <!--Optional:-->
+      <Minimum>1.051732E7</Minimum>
+      <!--Optional:-->
+      <Maximum>1.051732E7</Maximum>
+      <!--Optional:-->
+      <Unit>string</Unit>
+      <!--Optional:-->
+      <CustomUnit>string</CustomUnit>
+    </Datapoints>
+    <!--Optional:-->
+    <Label>string</Label>
+  </GetMetricStatisticsResult>
+</GetMetricStatisticsResponse>

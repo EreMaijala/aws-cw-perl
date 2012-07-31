@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListMetricsResponse xmlns="http://monitoring.amazonaws.com/doc/2009-05-15/">
+  <ListMetricsResult>
+    <!--Zero or more repetitions:-->
+    <Metrics>
+      <MeasureName>string</MeasureName>
+      <!--Zero or more repetitions:-->
+      <Dimensions>
+        <Name>string</Name>
+        <Value>string</Value>
+      </Dimensions>
+      <!--Optional:-->
+      <Namespace>string</Namespace>
+    </Metrics>
+    <!--Optional:-->
+    <NextToken>string</NextToken>
+  </ListMetricsResult>
+  <ResponseMetadata>
+    <RequestId>string</RequestId>
+  </ResponseMetadata>
+</ListMetricsResponse>
