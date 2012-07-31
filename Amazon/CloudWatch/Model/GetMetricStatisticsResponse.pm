@@ -60,7 +60,7 @@ use base qw (Amazon::CloudWatch::Model);
     sub fromXML {
         my ($self, $xml) = @_;
         eval "use XML::Simple";
-        my $tree = XML::Simple::XMLin ($xml);
+        my $tree = XML::Simple::XMLin ($xml, NoAttr => 1);
          
         # TODO: check valid XML (is this a response XML?)
         
