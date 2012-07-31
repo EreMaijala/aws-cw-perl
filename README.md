@@ -1,4 +1,4 @@
-aws-cw-perl
+Fixed Perl Library for Amazon CloudWatch
 ===========
 
-Fixed version of Amazon CloudWatch Perl Library
+I just wanted this library to work. It doesn't. I fixed it.
